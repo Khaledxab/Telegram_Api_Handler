@@ -12,7 +12,7 @@ def handle_message(update, context):
             file.write(f"From: {chat_id}\n")
             file.write(f"Message: {text}\n\n")
 
-updater = Updater('6332434813:AAFQ4GdA72qbcLsTv7ScWsn3trbS4sD7qpo', use_context=True)  # Replace 'YOUR_BOT_TOKEN' with your actual bot token
+updater = Updater('token', use_context=True)  # Replace 'YOUR_BOT_TOKEN' with your actual bot token
 
 dispatcher = updater.dispatcher
 
